@@ -2,9 +2,9 @@ This Java program simulates and compares two CPU Scheduling algorithms, SJF (Sho
 
 Test inputs were randomly generated.
 
-Test run 1:
+![Test run 1:](/markdown/test1.png)
 
-Test run 2:
+![Test run 2:](/markdown/test2.png)
 
 CPU utilization and Throughput don’t have difference between SJF and RR when running the same job list. In this simulation, CPU utilization decreases only when the current job finished and the next job hasn’t arrived yet. Throughput on a same set of jobs are the same due to this simulation doesn’t consider the algorithm efficiency, context-switch time, etc.
 
